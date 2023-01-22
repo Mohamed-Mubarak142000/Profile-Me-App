@@ -1,0 +1,44 @@
+nav
+{
+    background: linear-gradient( transparent,var(--color-primary-varient),transparent);
+    width: max-content;
+    padding: .5rem;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+
+}
+
+.mynavbar
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.mynavbar a
+{
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 0px 7px;
+    padding: 10px;
+    color: var(--color-white);
+    transition: var(--transition-hover);
+}
+
+.mynavbar a:hover
+{
+    background: rgba(0, 0, 0, .5);
+}
+
+.mynavbar a.active
+{
+    background: rgba(0, 0, 0, .3);
+    color: var(--color-white);
+}

@@ -1,0 +1,38 @@
+.mylink
+{
+    position: absolute;
+    bottom: 7rem;
+}
+
+.mylink a
+{
+    font-size: 25px;
+    display: block;
+    color: var(--color-primary-varient);
+    transition: var(--transition-hover);
+}
+
+.mylink a:hover
+{
+    color: var(--color-primary);
+}
+
+/***********************************/
+
+@media (max-width:915px) {
+    
+    .mylink
+    {
+        bottom: 25rem;
+    }
+}
+
+/*********************************/
+
+@media (min-width:1024px) {
+    
+    .mylink
+    {
+        bottom: 0rem;
+    }
+}

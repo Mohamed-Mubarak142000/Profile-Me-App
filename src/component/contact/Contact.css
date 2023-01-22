@@ -1,0 +1,241 @@
+.main-content-contact
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.main-content-contact .child-content-contact:first-child
+{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.main-content-contact .child-content-contact:first-child .contact-email
+{
+    background-color: var(--color-bg-varient);
+    width: 250px;
+    border: var(--color-bg);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    border-radius: 15px;
+}
+
+.main-content-contact .child-content-contact:first-child .contact-email h3
+{
+    margin: 0px ;
+}
+
+.main-content-contact .child-content-contact:first-child .contact-email a
+{
+    color: var(--color-primary-varient);
+    text-transform: capitalize;
+    transition: var(--transition-hover);
+}
+
+.main-content-contact .child-content-contact:first-child .contact-email a:hover
+{
+    color: var(--color-primary);
+    text-transform: capitalize;
+}
+
+
+/**********************/
+
+.main-content-contact .child-content-contact:last-child
+{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 2rem 0;
+}
+
+.main-content-contact .child-content-contact:last-child form .input
+{
+    width: 90%;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.main-content-contact .child-content-contact:last-child form input
+{
+    background-color: transparent;
+    color: var(--color-white);
+    border: 2px solid var(--color-primary);
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.main-content-contact .child-content-contact:last-child form .textarea
+{
+    width: 90%;
+    height: 200px;
+}
+
+
+.main-content-contact .child-content-contact:last-child form .textarea textarea
+{
+    border: 2px solid var(--color-primary);
+    color: var(--color-white);
+    border-radius: 5px;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content-contact .child-content-contact:last-child form .button-send
+{
+    border: 1px solid var(--color-bg);
+    width: max-content;
+    margin: 20px 0px;
+}
+
+.main-content-contact .child-content-contact:last-child form .button-send a
+{
+    color: var(--color-bg-varient);
+    background-color: var(--color-white);
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: var(--transition-hover);
+}
+
+.main-content-contact .child-content-contact:last-child form .button-send a:hover
+{
+    background-color: var(--color-primary);
+}
+
+
+
+
+/*****************************************************MEDIA QUERY******************************************/
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+    .main-content-contact
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.main-content-contact .child-content-contact:first-child
+{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+/**********************/
+
+.main-content-contact .child-content-contact:last-child
+{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 2rem 0;
+}
+
+
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    
+    .main-content-contact
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.main-content-contact .child-content-contact:first-child
+{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+/**********************/
+
+.main-content-contact .child-content-contact:last-child
+{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 2rem 0;
+}
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+    .main-content-contact
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.main-content-contact .child-content-contact:first-child
+{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+/**********************/
+
+.main-content-contact .child-content-contact:last-child
+{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 2rem 0;
+}
+
+
+
+}

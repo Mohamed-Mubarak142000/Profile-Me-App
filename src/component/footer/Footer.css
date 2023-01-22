@@ -1,0 +1,151 @@
+.myfooter
+{
+    background-color: var(--color-primary-varient);
+    margin: 0;
+    padding-bottom: .5rem;
+    width: 100%;
+}
+
+.main-content-footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+}
+
+.main-content-footer .child-content-footer h1
+{
+    margin-top: 2rem;
+    padding: 15px 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+} 
+
+.main-content-footer .child-content-footer ul li
+{
+    display: inline;
+    margin: 1rem .4rem ;
+    font-size: 15px;
+} 
+
+.main-content-footer .child-content-footer ul li a
+{
+    color: var(--color-bg);
+    transition: var(--transition-hover);
+}
+
+.main-content-footer .child-content-footer .icons
+{
+    margin: 2rem 0px 3rem 0;
+    color: var(--color-bg);
+    font-size: 30px;
+    transition: var(--transition-hover);
+}
+
+.main-content-footer .child-content-footer ul li a:hover,
+.main-content-footer .child-content-footer .icons:hover
+
+{
+    color: var(--color-white);
+}
+
+
+/*****************************************************MEDIA QUERY******************************************/
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+    .myfooter
+{
+    background-color: var(--color-primary-varient);
+    margin: 0;
+    padding-bottom: .5rem;
+    width: 100%;
+}
+
+.main-content-footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-footer .child-content-footer h1
+{
+    margin-top: 1rem;
+    padding: 15px 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+} 
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    
+    .myfooter
+{
+    background-color: var(--color-primary-varient);
+    margin: 0;
+    padding-bottom: .5rem;
+    width: 100%;
+}
+
+.main-content-footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-footer .child-content-footer h1
+{
+    margin-top: 1rem;
+    padding: 15px 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+} 
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+    .myfooter
+{
+    background-color: var(--color-primary-varient);
+    margin: 0;
+    padding-bottom: .5rem;
+    width: 100%;
+}
+
+.main-content-footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-footer .child-content-footer h1
+{
+    margin-top: 1rem;
+    padding: 15px 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 40px;
+} 
+
+}

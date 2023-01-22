@@ -1,0 +1,16 @@
+.typic
+{
+    width: 100%;
+}
+
+.typic p
+{
+    color: var(--color-white);
+}
+
+.typic p>span
+{
+    color: var(--color-primary);
+    font-size: 25px;
+    font-weight: 600;
+}

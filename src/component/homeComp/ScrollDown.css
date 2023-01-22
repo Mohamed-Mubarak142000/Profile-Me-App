@@ -1,0 +1,41 @@
+.myScrolled
+{
+    position: absolute;
+    bottom: 7rem;
+}
+
+.myScrolled h3
+{
+    color: var(--color-primary-varient);
+    transform: rotate(90deg);
+}
+
+.myScrolled h3 a
+{
+    color: var(--color-primary-varient);
+    transition: var(--transition-hover);
+}
+
+.myScrolled h3 a:hover
+{
+    color: var(--color-primary);
+}
+
+/***********************************/
+@media (max-width:915px) {
+    
+    .myScrolled
+    {
+        bottom: 25rem;
+    }
+}
+
+/************************************/
+
+@media (min-width:1024px) {
+    
+    .myScrolled
+    {
+        bottom: 0rem;
+    }
+}
